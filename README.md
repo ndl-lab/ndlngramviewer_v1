@@ -39,7 +39,7 @@ infra-docker/es_dockerに、サービス提供用Elasticsearchのdocker-compose�
 
 **【注意！】Elasticsearchコンテナのデータが初期化されますので気を付けてください**
 ```
-java -jar ngramviewer-0.1.jar batch create-index
+java -jar ngramviewer-0.1.jar batch create-index all
 ```
 
 ### 4. 投入用データのダウンロード

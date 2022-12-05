@@ -56,6 +56,17 @@ https://lab.ndl.go.jp/dataset/ngramviewer/sorted-tosho-pdmngram.json.gz
 curl -OL https://lab.ndl.go.jp/dataset/ngramviewer/sorted-tosho-pdmngram.json.gz
 ```
 
+投入用データは3列目にjsonを含むタブ区切り形式となっています。
+
+「ngramキーワード」 \t 「総頻度」 \t 「出版年をキー、当該出版年における頻度を値とした頻度情報json」
+
+
+例
+```
+いもほりに行く  6       {'1937': '1', '1922': '1', '1938': '1', '1935': '2', '1923': '1'}
+```
+
+
 ### 5. 投入用データのインデックス
 下記のコマンドを実行してください。
 ```

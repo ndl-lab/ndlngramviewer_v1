@@ -15,7 +15,7 @@ services:
     ports:
       - 9210:9200
     volumes:
-      - ./es:/usr/share/elasticsearch/data
+      - ./esdata:/usr/share/elasticsearch/data
   kibanangram:
     image: docker.elastic.co/kibana/kibana:7.10.0
     ports:

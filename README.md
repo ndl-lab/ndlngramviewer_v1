@@ -3,7 +3,7 @@
 ## 概要
 2022年5月から12月まで[https://lab.ndl.go.jp/ngramviewer/](https://lab.ndl.go.jp/ngramviewer/)から実験サービスとして公開している、著作権保護期間満了図書資料28万点を対象としたNDL Ngram Viewer(Version 1)のソースコードです。
 
-2023年1月以降にリニューアルする同NDL Ngram Viewerのソースコードについては、対象範囲を大きく拡大したことに伴って大幅な改修を行ったため、[version2](https://github.com/ndl-lab/ndlngramviewer_v2)（※近日公開）としてリポジトリを分けています。
+2023年1月以降にリニューアルする同NDL Ngram Viewerのソースコードについては、対象範囲を大きく拡大したことに伴って大幅な改修を行ったため、[Version 2](https://github.com/ndl-lab/ndlngramviewer_v2)（※近日公開）としてリポジトリを分けています。
 
 Version 1 とVersion 2の機能面での主な特徴は次の通りです。二次利用等の際の参考としてください。
 

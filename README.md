@@ -1,17 +1,9 @@
 # NDL Ngram Viewer(Version 1)
 
 ## 概要
-2022年5月から12月まで[https://lab.ndl.go.jp/ngramviewer/](https://lab.ndl.go.jp/ngramviewer/)から実験サービスとして公開している、著作権保護期間満了図書資料28万点を対象としたNDL Ngram Viewer(Version 1)のソースコードです。
+著作権保護期間が満了した図書資料28万点を対象に、2022年5月からNDLラボの実験サービスとして公開している[NDL Ngram Viewer](https://lab.ndl.go.jp/ngramviewer/)のソースコードです。
 
-2023年1月以降にリニューアルする同NDL Ngram Viewerのソースコードについては、対象範囲を大きく拡大したことに伴って大幅な改修を行ったため、[Version 2](https://github.com/ndl-lab/ndlngramviewer_v2)（※近日公開）としてリポジトリを分けています。
-
-Version 1 とVersion 2の機能面での主な特徴は次の通りです。二次利用等の際の参考としてください。
-
-Version 1（このリポジトリ）：単一の断面（例えば著作権保護期間満了図書資料の全文テキストデータ）を可視化する。シンプルなアプリケーション。
-
-[Version 2](https://github.com/ndl-lab/ndlngramviewer_v2)：複数の断面（例えば図書及び雑誌資料の全文テキストデータ）を出し分けて可視化する。やや複雑なアプリケーション。
-
-お手元のテキストデータを利用してとりあえず可視化サービスを作りたい、という用途にはversion1を、複数の断面の出し分けについて実装が必要な用途や最新のNDL Ngram Viewerを再現したりしたいという用途にはversion2を参考にしていただくことをお勧めします。
+2023年1月以降にリニューアルする予定の同NDL Ngram Viewerのソースコードについては、対象範囲を大きく拡大することに伴って大幅な改修を行うため、[Version 2](https://github.com/ndl-lab/ndlngramviewer_v2)（※近日公開）としてリポジトリを分けています。
 
 
 ## このリポジトリについて

@@ -46,7 +46,7 @@ java -jar ngramviewer-0.1.jar batch create-index all
 自分で投入用データの作成を行う場合には、datacreationtoolsディレクトリ内のREADME.mdを参考にしてください。
 
 
-当館が用意したデータを投入する場合、NDL Ngram Viewer version1の全データを以下から公開しています。
+当館が用意したデータを投入する場合、NDL Ngram Viewer version1の全データを次のURLから公開しています。
 
 https://lab.ndl.go.jp/dataset/ngramviewer/sorted-tosho-pdmngram.json.gz
 (20.7GB)
@@ -56,15 +56,9 @@ https://lab.ndl.go.jp/dataset/ngramviewer/sorted-tosho-pdmngram.json.gz
 curl -OL https://lab.ndl.go.jp/dataset/ngramviewer/sorted-tosho-pdmngram.json.gz
 ```
 
-投入用データは3列目にjsonを含むタブ区切り形式となっています。
+投入用データのライセンス情報については次のリポジトリを参照してください。
 
-「ngramキーワード」 \t 「総頻度」 \t 「出版年をキー、当該出版年における頻度を値とした頻度情報json」
-
-
-例
-```
-いもほりに行く  6       {'1937': '1', '1922': '1', '1938': '1', '1935': '2', '1923': '1'}
-```
+https://github.com/ndl-lab/ndlngramdata
 
 
 ### 5. 投入用データのインデックス

@@ -22,7 +22,7 @@ version1（このリポジトリ）：単一の断面（例えば著作権保護
 自分でビルドする場合は、appディレクトリ内のREADME.mdを参考にしてください。
 
 なお、リリース時のアプリケーションのURLやElasticsearchのエンドポイントの設定は
-[app/src/main/resources/config/application.yml]([app/src/main/resources/config/application.yml])を編集してビルドすることで変更可能です。
+[app/src/main/resources/config/application.yml](app/src/main/resources/config/application.yml)を編集してビルドすることで変更可能です。
 
 
 ## サービス起動手順
